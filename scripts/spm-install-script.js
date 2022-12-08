@@ -53,7 +53,11 @@ async function downloadSpm(version) {
 function deleteSelf() {
   const fm = FileManager.iCloud();
   const path = fm.joinPath(fm.documentsDirectory(), "spm-install-script.js");
-  fm.remove(path);
+  try {
+    fm.remove(path);
+  } catch {
+    // ignore
+  }
 }
 
 /**
