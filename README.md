@@ -1,4 +1,4 @@
-# spm: Packages
+# spm - Packages
 Official database for spm packages.
 
 ---

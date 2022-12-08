@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "$id": "https://example.com/product.schema.json",
+  "title": "spm-package",
+  "description": "A spm.json file with package information",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "The name of the package. Needs to be unique in author's packages.",
+      "type": "string"
+    },
+    "description": {
+      "description": "A short description of what the package does.",
+      "type": "string"
+    },
+    "author": {
+      "description": "The author or authors of the package.",
+      "oneOf": [
+        { "type": "string" },
+        { "type": "array", "items": { "type": "string" }}
+      ]
+    },
+    "versions": {
+      "description": "The recommended versions of the package.",
+      "type": "object",
+      "properties": {
+        "latest": {
+          "description": "The file name of the latest stable version of the package.",
+          "type": "string"
+        },
+        "dev-latest": {
+          "description": "The file name of the latest development version of the package.",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "name",
+    "description",
+    "author",
+    "versions"
+  ],
+  "additionalProperties": false
+}

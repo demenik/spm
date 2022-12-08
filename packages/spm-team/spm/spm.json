@@ -1,0 +1,9 @@
+{
+  "name": "spm",
+  "description": "spm is a package manager for Scriptable.",
+  "author": ["spm-team", "demenik"],
+  "versions": {
+    "latest": "0.0.4",
+    "dev-latest": "0.0.4"
+  }
+}

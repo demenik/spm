@@ -1,0 +1,9 @@
+{
+  "name": "cache",
+  "description": "A simple package for caching data and images in Scriptable",
+  "author": "demenik",
+  "versions": {
+    "latest": "1.0.0",
+    "dev-latest": "1.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "widget-builder",
+  "description": "A tree-like widget builder for Scriptable",
+  "author": "demenik",
+  "versions": {
+    "latest": "0.0.1",
+    "dev-latest": "0.0.1"
+  }
+}

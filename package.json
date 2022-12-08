@@ -1,0 +1,23 @@
+{
+  "INFO": "This is not a npm package. Spm uses this file to enable IntelliSense for Scriptable API.",
+
+  "name": "spm",
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "@scriptable-ios"
+    ],
+    "rules": {
+      "no-unused-vars": "warn"
+    },
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    }
+  },
+  "devDependencies": {
+    "@scriptable-ios/eslint-config": "latest",
+    "@types/scriptable-ios": "latest",
+    "eslint": "latest"
+  }
+}

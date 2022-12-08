@@ -1,0 +1,10 @@
+{
+  "json.schemas": [
+    {
+      "url": "./utils/spm-schema.json",
+      "fileMatch": [
+        "**/spm.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "parameter-parser",
+  "description": "A simple parameter parser for Scriptable",
+  "author": "demenik",
+  "versions": {
+    "latest": "0.0.1",
+    "dev-latest": "0.0.1"
+  }
+}
