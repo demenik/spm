@@ -1,7 +1,7 @@
 // This is the file that gets imported by spm
 
 // You can import other modules here too:
-const spm = importModule("spm")
+const spm = await importModule("spm-wrapper")("0.0.7");
 const module = spm.import("...")
 
 

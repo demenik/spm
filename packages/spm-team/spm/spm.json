@@ -3,7 +3,12 @@
   "description": "spm is a package manager for Scriptable.",
   "author": ["spm-team", "demenik"],
   "versions": {
-    "latest": "0.0.6",
-    "dev-latest": "0.0.6"
-  }
+    "0.0.7": {
+      "file": "0.0.7.js",
+      "changelog": [
+        "Breaking Changes. Only use this version or higher. Old versions deleted from the repo."
+      ]
+    }
+  },
+  "latest": "0.0.7"
 }

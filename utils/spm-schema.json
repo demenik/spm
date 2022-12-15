@@ -17,29 +17,31 @@
       "description": "The author or authors of the package.",
       "oneOf": [
         { "type": "string" },
-        { "type": "array", "items": { "type": "string" }}
+        { "type": "array", "items": { "type": "string" } }
       ]
     },
     "versions": {
       "description": "The recommended versions of the package.",
       "type": "object",
       "properties": {
-        "latest": {
-          "description": "The file name of the latest stable version of the package.",
+        "file": {
+          "file": "The file name of the this version.",
           "type": "string"
         },
-        "dev-latest": {
+        "changelog": {
           "description": "The file name of the latest development version of the package.",
-          "type": "string"
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         }
       }
+    },
+    "latest": {
+      "description": "The latest recommended version of the package.",
+      "type": "string"
     }
   },
-  "required": [
-    "name",
-    "description",
-    "author",
-    "versions"
-  ],
+  "required": ["name", "author", "versions"],
   "additionalProperties": false
 }

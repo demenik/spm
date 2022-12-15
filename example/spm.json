@@ -3,7 +3,10 @@
   "description": "<description>",
   "author": "<author(s)>",
   "versions": {
-    "latest": "<file name without .js>",
-    "dev-latest": "<file name without .js>"
-  }
+    "0.0.1": {
+      "file": "0.0.1.js",
+      "changelog": ["Added new feature!"]
+    }
+  },
+  "latest": "0.0.1"
 }
