@@ -3,7 +3,9 @@
   "description": "A simple parameter parser for Scriptable",
   "author": "demenik",
   "versions": {
-    "latest": "0.0.1",
-    "dev-latest": "0.0.1"
-  }
+    "0.0.1": {
+      "file": "0.0.1.js"
+    }
+  },
+  "latest": "0.0.1"
 }
