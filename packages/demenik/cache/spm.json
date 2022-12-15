@@ -3,7 +3,9 @@
   "description": "A simple package for caching data and images in Scriptable",
   "author": "demenik",
   "versions": {
-    "latest": "1.0.0",
-    "dev-latest": "1.0.0"
-  }
+    "1.0.0": {
+      "file": "1.0.0.js"
+    }
+  },
+  "latest": "1.0.0"
 }
