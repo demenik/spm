@@ -23,16 +23,22 @@
     "versions": {
       "description": "The recommended versions of the package.",
       "type": "object",
-      "properties": {
-        "file": {
-          "file": "The file name of the this version.",
-          "type": "string"
-        },
-        "changelog": {
-          "description": "The file name of the latest development version of the package.",
-          "type": "array",
-          "items": {
-            "type": "string"
+      "patternProperties": {
+        "^.*$": {
+          "description": "A version of the package.",
+          "type": "object",
+          "properties": {
+            "file": {
+              "file": "The file name of the this version.",
+              "type": "string"
+            },
+            "changelog": {
+              "description": "The file name of the latest development version of the package.",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
           }
         }
       }
